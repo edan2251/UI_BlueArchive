@@ -1,0 +1,2971 @@
+fileFormatVersion: 2
+guid: 1518579fb6113a947bf6aeb692820172
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reeee_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 11773
+        width: 640
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6847fb01a58be34c902d4380d2a7164
+      internalID: -1297658129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_1
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 11773
+        width: 223
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7eb93ad1eed1b488f4a7554ca229f2
+      internalID: 1968428074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_2
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 11549
+        width: 552
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bd7ca9366d2e940aa4f55eb854e4c1
+      internalID: -962166004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_3
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 11549
+        width: 735
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905e97d1faf1204a8075ead34e78992
+      internalID: -1976266696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 11720
+        width: 388
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3834068cf5ec3747a2a2313c60ca70a
+      internalID: 1625397319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_5
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 11720
+        width: 100
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f60f1b565abb0c4b95e3ecc5c96fdd2
+      internalID: -279324722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_6
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 11708
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ebeca5a74ebf4598b8bc688ef4409
+      internalID: -134256508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 11549
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bcc588bcba03145af876a319470ec3
+      internalID: 1279067920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 11549
+        width: 176
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4299185d97ebb8247964b3685d475930
+      internalID: -1341977453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 11537
+        width: 141
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1762c0b5b0936264e942fb130770f146
+      internalID: 316694480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 11537
+        width: 135
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae75aaf84b66cd644affb68ae03bb654
+      internalID: 2103622076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 11431
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc019b91a0edc742a9cd30918ebd50d
+      internalID: -600879146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_12
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 11437
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35961ea49ec671e49b126ad4a6e63879
+      internalID: -10731111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 11431
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abaa1460c504b540a4de1acdf8ce942
+      internalID: -284377042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 11438
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108bf6f0e8fc6dc41a8478eb5c275b95
+      internalID: -2008901237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_15
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 11431
+        width: 86
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b07df1b504590478083e4016c66b90
+      internalID: -1890314412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_16
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 11437
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de5af779a72a804f82e80528268859e
+      internalID: -1198938873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_17
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 11431
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a069a4b56dc6c46bdd4b7d48d7c16d
+      internalID: -848007700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_18
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 11278
+        width: 442
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c171665a40c7e7749a80614961f53de8
+      internalID: -1222773509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 11278
+        width: 383
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaf7c3821a37b944bea6d0413df0103
+      internalID: 176495384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_20
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 11278
+        width: 452
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a281e40cc13924c8cfd0c71928ca0a
+      internalID: -1621245704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_21
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 11278
+        width: 382
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76df9870ba8aed440b2f86255a93d83a
+      internalID: -1861443771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_22
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 11278
+        width: 552
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63211b58290a7f94d9542659b31ca13f
+      internalID: 1189761174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 11114
+        width: 2488
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d5e8cf27e4f42489d5dd666b9075f2
+      internalID: 882320246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 10890
+        width: 2818
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76163d8ea981d7949ae310bf5ba6bf36
+      internalID: -266163455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_25
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 10867
+        width: 159
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a80d27f6c9e8074ead2a2a81ebd4b2b
+      internalID: -29438955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_26
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 10914
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ab4309770603a488a1f5b92893037e
+      internalID: 2146838687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_27
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 10914
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e970f9e4fa4c8f45a97e7ce26fa01d8
+      internalID: 2085669673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 9908
+        width: 480
+        height: 894
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a6b3ee1a3a38a48971a4af2d690622
+      internalID: 1272418577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_29
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 10620
+        width: 506
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1555bf024761147b72b6a3b593e927
+      internalID: -570825484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_30
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 10561
+        width: 265
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e8e098cf653f043bdd2c7a518fa754
+      internalID: 294759323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_31
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 10702
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4f9dc9202d3db4bac5b4d25a6108b8
+      internalID: -1601092716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_32
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 9920
+        width: 1365
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbb2f2c8cfd2104886edb8932577863
+      internalID: -707567607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_33
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 9896
+        width: 1417
+        height: 929
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c05d138ab4863a45b6fe4413318d169
+      internalID: -1264702069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_34
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 9990
+        width: 34
+        height: 841
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66d8e99e054a244894fead1b22279ca
+      internalID: 1407513483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_35
+      rect:
+        serializedVersion: 2
+        x: 4897
+        y: 10582
+        width: 29
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c94e933c5aaa874fb479911db2ce8d9
+      internalID: -1692425017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_36
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 10414
+        width: 487
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f742834363615b5418200e9527834825
+      internalID: 1474730354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_37
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 9949
+        width: 327
+        height: 547
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5620d4fd6d6a900479ef4ae65fe2af74
+      internalID: -1731786855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_38
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 10279
+        width: 441
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e6e0f365abc984b9b1a450f31ed216
+      internalID: 2082034664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_39
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 10126
+        width: 341
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21f6344a4055f544949dd3d08b3fd83
+      internalID: -1618213662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_40
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 10137
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e327fa0fe9186274eac558efbd36c9f9
+      internalID: 451620517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_41
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 9949
+        width: 299
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc550eb8a729f24ea6a118481060f4a
+      internalID: 1359290849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_42
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 10026
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e35dacd7965cce4baac9e0698854bbe
+      internalID: 528302626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_43
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 9673
+        width: 1394
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f837406fb615a194ba86e76d577daf8a
+      internalID: 1742522418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_44
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 9726
+        width: 329
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1950794fe2a133249b166046b9716baf
+      internalID: -1539973363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_45
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 9385
+        width: 341
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc803f033ee7f344b959125713995ff
+      internalID: 2044711561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_46
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 9279
+        width: 1206
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cc8bef0e21b414f852af023b5e6d5e
+      internalID: 612033816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_47
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 8649
+        width: 1259
+        height: 841
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826e15b095ff6ee40b119e8ce7c95c1a
+      internalID: -2010776905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_48
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 8496
+        width: 1300
+        height: 994
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80310d694ee5ef429631af5c6bec76c
+      internalID: -684035115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_49
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 9243
+        width: 200
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7dae031f89cd4688a2d35f8468eac
+      internalID: -2048828111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 9261
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8411202bc3cc1c42820a8ead9569326
+      internalID: -1416150651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_51
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 9220
+        width: 1164
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255245dad0e4fba4188423ab6e06cf14
+      internalID: -1822198444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_52
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 9055
+        width: 441
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779772b4d02b52c49a58bf668dcffd7d
+      internalID: -701344157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_53
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 9055
+        width: 175
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945f703d9eea88c43b42c723c299ccc3
+      internalID: 1487445695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_54
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 9008
+        width: 370
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b52732271e23f48809ae6a9c2bb81f
+      internalID: -1866313959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_55
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 8949
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ee4225abda624ca4f8696cf521cc0
+      internalID: -1648097020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_56
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 8949
+        width: 146
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b68250c1f0718448bdd07ab2e78e99a
+      internalID: -297176547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_57
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 8949
+        width: 264
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870c28503224dc24482f259265a501d0
+      internalID: 480413801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_58
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 7999
+        width: 480
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a406b13d131d8c24196562cd1a72fa7a
+      internalID: 674301487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8202
+        width: 488
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b9090b005e51041abc1d2d8c3af8ef
+      internalID: -606590639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_60
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 8043
+        width: 2082
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab84e24657475c4da08a6f5875d23e4
+      internalID: 871254451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_61
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 8202
+        width: 487
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aae9b41a9d1d54dabe01c7942853f0
+      internalID: 1459366913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8020
+        width: 505
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1994cb1bed96ed4e80d9f4bfb176e8d
+      internalID: 1711750638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_63
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 7667
+        width: 323
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c121e9b99a19e0245842dd03aa55a4f1
+      internalID: 530908830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7855
+        width: 470
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30560f6a2d7652945bbe26e1766e661d
+      internalID: 1738188179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_65
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 7020
+        width: 2141
+        height: 982
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a635b3be1e0774c8f74013186b85a1
+      internalID: -2137189593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7691
+        width: 435
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee7f782112bc1b4fa7f96fb1a17f8ec
+      internalID: -94538434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_67
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 7526
+        width: 435
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2018f554f23b6af4b97d1e8edb69b33f
+      internalID: -479139041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_68
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 7567
+        width: 117
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcab56b7c2e109418537d57abe3d32f
+      internalID: -187497437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_69
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 6920
+        width: 2141
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34954b6f48bd834388dc46a65e90e1b
+      internalID: -1918361278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_70
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 6461
+        width: 100
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8150607f67954934cad4f8fb6c38decc
+      internalID: -1040532908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_71
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 6479
+        width: 335
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced68c7490273934b92c808531dcdb3d
+      internalID: -1603772303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_72
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 6479
+        width: 335
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5c8a571ebe8c24aba733c4ea714b67
+      internalID: -206839945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_73
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 6479
+        width: 340
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe25bc2188a8ed488d4f7f1d435c040
+      internalID: -1045283267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_74
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 6120
+        width: 422
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c93dffdd2fda15459de9c21bc65de48
+      internalID: -1640331423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_75
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 5620
+        width: 29
+        height: 976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd0ce7209bead4bb9a4d34de5c3aee
+      internalID: 1261361806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_76
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 6509
+        width: 34
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98952cdd852ab7a42b6ffb14438b689f
+      internalID: 168276107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_77
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 5538
+        width: 2629
+        height: 1053
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9518cf6d1c91e724e959c72c24613155
+      internalID: 1455997472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_78
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 6311
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2067c9da221cfe488fbdb2c08a8d0c7
+      internalID: 1811722100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_79
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 6338
+        width: 335
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d741bdb2532f1d4aa7d21cce31ba6ec
+      internalID: -28675430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_80
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 6338
+        width: 335
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b33dce87884b1a4487033d1afb7ff15
+      internalID: -1412501097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_81
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 6338
+        width: 336
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35695414170e6e42b9834517d527124
+      internalID: -769825521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_82
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 6185
+        width: 597
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93578cfbb8411d4fb8051f19027068d
+      internalID: -1024625470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_83
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 6185
+        width: 247
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add539103c6bb0445b42dd694ba79146
+      internalID: -1799662788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_84
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 6208
+        width: 118
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ca05da40d5baf468a00f41436120f7
+      internalID: 1025803309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_85
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 4273
+        width: 2711
+        height: 1218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6313db7341500ca4192abf70349197d2
+      internalID: -876963756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_86
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 4173
+        width: 2552
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b1609ab08a0264aa361bcb345247e2
+      internalID: -2145513787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_87
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3609
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ec3dcaae33a9248a067a7628ebd3be
+      internalID: -546206695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_88
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3609
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664ebf38b9059b942aace2c5be2b74dd
+      internalID: 1887807388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_89
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 3376
+        width: 900
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fa633da3bdee348a7ddd847de37c5a
+      internalID: 986617109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_90
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 3556
+        width: 417
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f8bb6c8d2654e41a7f0c0d716f56bc
+      internalID: 70444066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_91
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 3532
+        width: 383
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e37fbafa723a54e8fba58c06f783cd
+      internalID: -91715201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_92
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 2485
+        width: 1235
+        height: 1235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba2fd2e79af88d4d8e322b05e026d5c
+      internalID: 1243463776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_93
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 3120
+        width: 1170
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e20e7c7e3bbae5468b911398f5cbd5b
+      internalID: -717519739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_94
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3473
+        width: 188
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da8f9dee104bae4caa8bde7e2c53401
+      internalID: -1095019231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_95
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 3367
+        width: 417
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247ea0beca83b8438e24651277776a4
+      internalID: -207435164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_96
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 3320
+        width: 383
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa2e26c6438ee946823c3df1e682df0
+      internalID: 1742161703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_97
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3344
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf1af910a36a99478c777ce2fd84cfb
+      internalID: -2031461652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_98
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 3291
+        width: 735
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa23d470e825f9547b792deae12638ef
+      internalID: 728924561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_99
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 3273
+        width: 293
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10e196f620e7d642ba0e7116aa618ac
+      internalID: 846289281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_100
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3226
+        width: 182
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc45bc881ecbed141b8803913866b3eb
+      internalID: 462888376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_101
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3185
+        width: 276
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b1a7e949658914386a897a059a3d2a
+      internalID: -1326203984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_102
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 3185
+        width: 281
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e8da3bd7e4b77498c01c13f9e66741
+      internalID: 1466567588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_103
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 3109
+        width: 117
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b824b63cc9e66845b0f4735bbc613a0
+      internalID: -1960467386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_104
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 3103
+        width: 365
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51cb448c5c09f44aa26834c6e9146ac
+      internalID: 78175178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_105
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 3091
+        width: 282
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2852c936f5b5e3c4993ae79342044289
+      internalID: -1795666404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_106
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2879
+        width: 547
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1922385f2e048b84cbe08fb0f1443d41
+      internalID: 211072092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_107
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 2844
+        width: 1111
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84934c7484b46664ca22e1e5de773cad
+      internalID: -405016655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_108
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 2485
+        width: 1111
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f74f08cfe5d2054ca3f1cd65895afea
+      internalID: -214149027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_109
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2003
+        width: 194
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad4dffd990e1c341a5cd73b25f5192f
+      internalID: 1473993765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_110
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1109
+        width: 1983
+        height: 1041
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14ba2199f3567c4cbcfeb96e2e447ec
+      internalID: 1185549785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_111
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 2003
+        width: 400
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49c5cbe9c78f3f459c30873048e5cfd
+      internalID: 1935424095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_112
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 2003
+        width: 382
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9075c4890456ba34baa84f1b9cb1a99d
+      internalID: 435756187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_113
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1897
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ababf448d8d43e3488b6851a7d400341
+      internalID: 496612072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_114
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 1115
+        width: 1511
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b237ed55103164b9686b6b935c9064
+      internalID: 391351677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_115
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1768
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2972d2916e8a6eb40b3864d276a97411
+      internalID: 2097391067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_116
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1768
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2464330f7198f97498e64e5feec8cfc0
+      internalID: -94433906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_117
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1632
+        width: 194
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aabe5783556f774d989d4f94d896fb3
+      internalID: -1888804501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_118
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1509
+        width: 194
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107a93801d48fc24a90cbddc7d31835d
+      internalID: 266048105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_119
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 744
+        width: 1482
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8042ff7707d818645896362099b6c756
+      internalID: -1651364992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_120
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1003
+        width: 1434
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc0d760e12a9d54992677abf87edb5d
+      internalID: -936828705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_121
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 850
+        width: 1447
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45de72e7f5f4e854383db9db8ed7829d
+      internalID: -2038499004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_122
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 479
+        width: 1482
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb8b306a763384439d8a3c197381706
+      internalID: -1210219157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reeee_123
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 156
+        width: 1482
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb0633caa8a18649a71a5f1b4a84cc3
+      internalID: -478780497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8e4c0438ad216b84b823383604364219
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Reeee_0: -1297658129
+      Reeee_1: 1968428074
+      Reeee_10: 2103622076
+      Reeee_100: 462888376
+      Reeee_101: -1326203984
+      Reeee_102: 1466567588
+      Reeee_103: -1960467386
+      Reeee_104: 78175178
+      Reeee_105: -1795666404
+      Reeee_106: 211072092
+      Reeee_107: -405016655
+      Reeee_108: -214149027
+      Reeee_109: 1473993765
+      Reeee_11: -600879146
+      Reeee_110: 1185549785
+      Reeee_111: 1935424095
+      Reeee_112: 435756187
+      Reeee_113: 496612072
+      Reeee_114: 391351677
+      Reeee_115: 2097391067
+      Reeee_116: -94433906
+      Reeee_117: -1888804501
+      Reeee_118: 266048105
+      Reeee_119: -1651364992
+      Reeee_12: -10731111
+      Reeee_120: -936828705
+      Reeee_121: -2038499004
+      Reeee_122: -1210219157
+      Reeee_123: -478780497
+      Reeee_13: -284377042
+      Reeee_14: -2008901237
+      Reeee_15: -1890314412
+      Reeee_16: -1198938873
+      Reeee_17: -848007700
+      Reeee_18: -1222773509
+      Reeee_19: 176495384
+      Reeee_2: -962166004
+      Reeee_20: -1621245704
+      Reeee_21: -1861443771
+      Reeee_22: 1189761174
+      Reeee_23: 882320246
+      Reeee_24: -266163455
+      Reeee_25: -29438955
+      Reeee_26: 2146838687
+      Reeee_27: 2085669673
+      Reeee_28: 1272418577
+      Reeee_29: -570825484
+      Reeee_3: -1976266696
+      Reeee_30: 294759323
+      Reeee_31: -1601092716
+      Reeee_32: -707567607
+      Reeee_33: -1264702069
+      Reeee_34: 1407513483
+      Reeee_35: -1692425017
+      Reeee_36: 1474730354
+      Reeee_37: -1731786855
+      Reeee_38: 2082034664
+      Reeee_39: -1618213662
+      Reeee_4: 1625397319
+      Reeee_40: 451620517
+      Reeee_41: 1359290849
+      Reeee_42: 528302626
+      Reeee_43: 1742522418
+      Reeee_44: -1539973363
+      Reeee_45: 2044711561
+      Reeee_46: 612033816
+      Reeee_47: -2010776905
+      Reeee_48: -684035115
+      Reeee_49: -2048828111
+      Reeee_5: -279324722
+      Reeee_50: -1416150651
+      Reeee_51: -1822198444
+      Reeee_52: -701344157
+      Reeee_53: 1487445695
+      Reeee_54: -1866313959
+      Reeee_55: -1648097020
+      Reeee_56: -297176547
+      Reeee_57: 480413801
+      Reeee_58: 674301487
+      Reeee_59: -606590639
+      Reeee_6: -134256508
+      Reeee_60: 871254451
+      Reeee_61: 1459366913
+      Reeee_62: 1711750638
+      Reeee_63: 530908830
+      Reeee_64: 1738188179
+      Reeee_65: -2137189593
+      Reeee_66: -94538434
+      Reeee_67: -479139041
+      Reeee_68: -187497437
+      Reeee_69: -1918361278
+      Reeee_7: 1279067920
+      Reeee_70: -1040532908
+      Reeee_71: -1603772303
+      Reeee_72: -206839945
+      Reeee_73: -1045283267
+      Reeee_74: -1640331423
+      Reeee_75: 1261361806
+      Reeee_76: 168276107
+      Reeee_77: 1455997472
+      Reeee_78: 1811722100
+      Reeee_79: -28675430
+      Reeee_8: -1341977453
+      Reeee_80: -1412501097
+      Reeee_81: -769825521
+      Reeee_82: -1024625470
+      Reeee_83: -1799662788
+      Reeee_84: 1025803309
+      Reeee_85: -876963756
+      Reeee_86: -2145513787
+      Reeee_87: -546206695
+      Reeee_88: 1887807388
+      Reeee_89: 986617109
+      Reeee_9: 316694480
+      Reeee_90: 70444066
+      Reeee_91: -91715201
+      Reeee_92: 1243463776
+      Reeee_93: -717519739
+      Reeee_94: -1095019231
+      Reeee_95: -207435164
+      Reeee_96: 1742161703
+      Reeee_97: -2031461652
+      Reeee_98: 728924561
+      Reeee_99: 846289281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
