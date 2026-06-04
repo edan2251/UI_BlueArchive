@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d55d64dd09c46af40a319933a62fa1b2
+timeCreated: 1573830121
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack-Outline.shader
+  uploadId: 458343

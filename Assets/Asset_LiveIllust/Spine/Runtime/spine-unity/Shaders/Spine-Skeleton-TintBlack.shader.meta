@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: deee23ab4aa38564ead2ac05e112c169
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader
+  uploadId: 458343

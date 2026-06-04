@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e1de23de2025abe4a84ff2edd3f24491
+timeCreated: 1494092582
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderMaths.cginc
+  uploadId: 458343

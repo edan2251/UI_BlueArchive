@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7f1f20f6ddb670f4998f78d0417912ee
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/CGIncludes/Spine-SkeletonGraphic-NormalPass.cginc
+  uploadId: 458343

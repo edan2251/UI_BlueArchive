@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 2cee8786fae257543bb140fa6ee137f1
+timeCreated: 1630515518
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-csharp/SkeletonLoader.cs
+  uploadId: 458343

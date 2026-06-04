@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f2de282d583d4a641bf1c349f0a3eef9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/SpineAttributeDrawers.cs
+  uploadId: 458343

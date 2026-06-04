@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a5b99b091defeef439a0cb8c99fd8a51
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Windows/SpriteAtlasImportWindow.cs
+  uploadId: 458343

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a9adb9a42068524aabbcd475d0d715f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/AtlasData/Relena_Atlas.asset
+  uploadId: 458343

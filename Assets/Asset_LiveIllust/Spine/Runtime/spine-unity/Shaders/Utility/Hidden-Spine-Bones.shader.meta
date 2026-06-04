@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 66988de88a15abd4e8846c6805485f57
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Utility/Hidden-Spine-Bones.shader
+  uploadId: 458343

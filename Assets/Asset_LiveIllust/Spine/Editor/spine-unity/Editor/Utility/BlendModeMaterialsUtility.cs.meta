@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8094f8aedb33b7744b109c2c1294d37a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Utility/BlendModeMaterialsUtility.cs
+  uploadId: 458343

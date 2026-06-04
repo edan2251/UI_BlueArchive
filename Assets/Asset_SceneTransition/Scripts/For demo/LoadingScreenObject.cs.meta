@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c2213fb5b39540a449660864031dbe80
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249561
+  packageName: Transition screen package
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/Transition screen package/Scripts/For demo/LoadingScreenObject.cs
+  uploadId: 569913

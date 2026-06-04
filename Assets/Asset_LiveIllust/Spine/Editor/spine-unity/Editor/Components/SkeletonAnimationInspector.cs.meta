@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 39fbfef61034ca045b5aa80088e1e8a4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Components/SkeletonAnimationInspector.cs
+  uploadId: 458343

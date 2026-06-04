@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 44a51df5672fe4249b6763960587a017
+timeCreated: 1456265154
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-csharp/IUpdatable.cs
+  uploadId: 458343

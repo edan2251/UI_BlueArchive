@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c4ee0f8f4be17434aa3df5774a03b366
+timeCreated: 1455140322
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefaultOutline.mat
+  uploadId: 458343

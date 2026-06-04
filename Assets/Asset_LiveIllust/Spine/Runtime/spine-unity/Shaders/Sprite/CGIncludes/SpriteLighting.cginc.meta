@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0cfb891658099ca4bb0c9544c08e60f9
+timeCreated: 1494092582
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteLighting.cginc
+  uploadId: 458343

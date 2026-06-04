@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80c06a67282e71043a4b1fad3e0c5654
+timeCreated: 1485965987
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/version.txt
+  uploadId: 458343

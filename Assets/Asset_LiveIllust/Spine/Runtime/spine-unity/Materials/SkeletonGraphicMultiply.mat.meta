@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e74a1f8978a7da348a721508d0d58834
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Materials/SkeletonGraphicMultiply.mat
+  uploadId: 458343

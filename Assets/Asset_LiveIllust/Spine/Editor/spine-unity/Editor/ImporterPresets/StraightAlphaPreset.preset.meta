@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3fe5ce49a7c8c041a9d60e4f7f403de
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPreset.preset
+  uploadId: 458343

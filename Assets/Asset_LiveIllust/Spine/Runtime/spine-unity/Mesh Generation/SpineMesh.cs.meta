@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f834c8746034db645a52a9506ff1de89
+timeCreated: 1455416715
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs
+  uploadId: 458343

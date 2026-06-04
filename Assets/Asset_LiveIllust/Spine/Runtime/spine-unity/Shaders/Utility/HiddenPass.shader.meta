@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 913475501bf19374c84390868a9d6d3d
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.shader
+  uploadId: 458343

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f205cc2af35e9c3468cf7162734b4ca8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249561
+  packageName: Transition screen package
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/Transition screen package/Animations/TS12/Outlined/TS_12_Outlined_Reveal.anim
+  uploadId: 569913

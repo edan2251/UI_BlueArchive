@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 45495790b394f894a967dbf44489b57b
+timeCreated: 1492385797
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Fill.shader
+  uploadId: 458343

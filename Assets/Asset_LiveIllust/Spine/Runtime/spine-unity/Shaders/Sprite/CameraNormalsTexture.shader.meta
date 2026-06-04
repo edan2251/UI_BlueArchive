@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 537141eca02c6df4bb8b4f77567e9de2
+timeCreated: 1494092584
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Sprite/CameraNormalsTexture.shader
+  uploadId: 458343

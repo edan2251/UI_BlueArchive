@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ea7e7c05f36541b4bb280f98ebda8ba1
+timeCreated: 1492385797
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Spine-Special-Skeleton-Grayscale.shader
+  uploadId: 458343

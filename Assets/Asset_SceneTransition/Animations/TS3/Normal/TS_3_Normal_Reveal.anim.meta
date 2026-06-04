@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af3e8e1df98e4154bb73297fad85994b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249561
+  packageName: Transition screen package
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/Transition screen package/Animations/TS3/Normal/TS_3_Normal_Reveal.anim
+  uploadId: 569913

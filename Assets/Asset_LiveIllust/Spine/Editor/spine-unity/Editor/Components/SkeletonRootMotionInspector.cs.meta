@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e4836100aed984c4a9af11d39c63cb6b
+timeCreated: 1593183609
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Components/SkeletonRootMotionInspector.cs
+  uploadId: 458343

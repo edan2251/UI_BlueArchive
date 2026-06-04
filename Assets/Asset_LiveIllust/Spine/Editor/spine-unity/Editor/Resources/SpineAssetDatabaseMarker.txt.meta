@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 57281c00bdd90ad4392f811f2b9f0da1
+timeCreated: 1444565392
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Resources/SpineAssetDatabaseMarker.txt
+  uploadId: 458343

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a27d4b27c8ecd9840a03558ccc5ad8a3
+timeCreated: 1573830741
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesPixelLit-Outline.shader
+  uploadId: 458343

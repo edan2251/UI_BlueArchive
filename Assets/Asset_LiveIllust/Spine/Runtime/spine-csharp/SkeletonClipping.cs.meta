@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7db809d277afd0e4a8e8c6b703002ee0
+timeCreated: 1492744746
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-csharp/SkeletonClipping.cs
+  uploadId: 458343

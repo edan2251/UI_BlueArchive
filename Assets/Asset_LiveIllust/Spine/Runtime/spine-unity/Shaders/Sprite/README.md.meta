@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cecd0ea162097a94c89a97af6baf0a66
+timeCreated: 1479457854
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Sprite/README.md
+  uploadId: 458343

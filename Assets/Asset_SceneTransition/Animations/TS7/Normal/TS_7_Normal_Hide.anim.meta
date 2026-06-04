@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 780fd11a70bad854b83e9561ba81dc3a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249561
+  packageName: Transition screen package
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/Transition screen package/Animations/TS7/Normal/TS_7_Normal_Hide.anim
+  uploadId: 569913

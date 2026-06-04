@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f834d5cd806ec4645915ac315edbdc60
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs
+  uploadId: 458343

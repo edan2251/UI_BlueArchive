@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 15f0f78b87720c047a320c5e0e3f91b7
+timeCreated: 1520505662
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs
+  uploadId: 458343

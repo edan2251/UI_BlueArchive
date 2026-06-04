@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0317ee9ba6e1b1e49a030268e026d372
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs
+  uploadId: 458343

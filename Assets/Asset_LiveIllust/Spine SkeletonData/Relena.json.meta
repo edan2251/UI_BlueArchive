@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 52951fec27249504897deb3d535aa1a4
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine SkeletonData/Relena.json
+  uploadId: 458343

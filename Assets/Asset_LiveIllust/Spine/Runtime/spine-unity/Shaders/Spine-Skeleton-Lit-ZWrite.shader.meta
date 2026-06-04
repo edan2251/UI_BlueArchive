@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fde05abf1f7be4b4da1caf8c8de1823a
+timeCreated: 1564082883
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit-ZWrite.shader
+  uploadId: 458343

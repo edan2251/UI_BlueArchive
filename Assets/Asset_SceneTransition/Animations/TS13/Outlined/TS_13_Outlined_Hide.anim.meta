@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a3e6322e3f16b34d8578c1b8e657624
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249561
+  packageName: Transition screen package
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/Transition screen package/Animations/TS13/Outlined/TS_13_Outlined_Hide.anim
+  uploadId: 569913

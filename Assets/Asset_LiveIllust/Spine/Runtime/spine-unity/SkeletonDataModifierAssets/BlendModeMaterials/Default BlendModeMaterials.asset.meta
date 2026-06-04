@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 22c0225612a65ee4fb15bad49f644762
+timeCreated: 1536404361
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/Default
+    BlendModeMaterials.asset
+  uploadId: 458343

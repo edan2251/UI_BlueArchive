@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f4c97e41d3d90e24bbb40d634e6cc336
+timeCreated: 1563313275
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Utility/SpineHandles.cs
+  uploadId: 458343

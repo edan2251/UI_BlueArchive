@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d9be5adcaf0003849a1d181173c19635
+timeCreated: 1566289729
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs
+  uploadId: 458343

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3431ed563b2c62f4c8c974a99365ba52
+timeCreated: 1563321428
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs
+  uploadId: 458343

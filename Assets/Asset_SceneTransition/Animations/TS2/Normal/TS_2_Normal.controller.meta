@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 40eb2577fe46f0040af127249e180c13
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249561
+  packageName: Transition screen package
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/Transition screen package/Animations/TS2/Normal/TS_2_Normal.controller
+  uploadId: 569913

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9d836858269be96428428fb6764dfc3a
+timeCreated: 1467213651
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-csharp/PathConstraintData.cs
+  uploadId: 458343

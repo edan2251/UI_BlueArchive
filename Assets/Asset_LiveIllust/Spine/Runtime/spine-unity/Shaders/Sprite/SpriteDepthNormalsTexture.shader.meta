@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: abbda12fddbb0b048a842a3835470d30
+timeCreated: 1480325971
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Runtime/spine-unity/Shaders/Sprite/SpriteDepthNormalsTexture.shader
+  uploadId: 458343

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf098cfbc06d0af40873331e38a82515
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249561
+  packageName: Transition screen package
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/Transition screen package/Animations/TS13/Outlined/TS_13_Outlined.controller
+  uploadId: 569913

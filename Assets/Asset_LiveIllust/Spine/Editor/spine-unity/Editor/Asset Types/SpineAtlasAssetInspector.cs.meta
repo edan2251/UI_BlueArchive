@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ca9b3ce36d70a05408e3bdd5e92c7f64
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165709
+  packageName: LiveIllust(Spine) Relena
+  packageVersion: 1.1
+  assetPath: Assets/LiveIllust(Spine)/Spine/Editor/spine-unity/Editor/Asset Types/SpineAtlasAssetInspector.cs
+  uploadId: 458343
