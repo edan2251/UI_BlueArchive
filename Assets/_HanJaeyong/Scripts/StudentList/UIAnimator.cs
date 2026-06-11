@@ -1,7 +1,9 @@
-using UnityEngine;
-using UnityEngine.UI;
 using DG.Tweening;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class UIAnimator : MonoBehaviour
 {
@@ -11,6 +13,10 @@ public class UIAnimator : MonoBehaviour
     [Tooltip("효과 함수"), SerializeField] private                   Ease listEase = Ease.OutBack;
     [Range(0f, 1f)]
     [Tooltip("시작 투명도"), SerializeField] private                 float listInitialAlpha = 0f;
+
+    [Header("[자리 이동 연출]")]
+    [Tooltip("스르륵 이동하는 시간"), SerializeField] private        float reorderDuration = 0.3f;
+    [Tooltip("부드러운 감속 이동"), SerializeField] private          Ease reorderEase = Ease.OutCubic;
 
     [Header("[핀 클릭 Down 수치]")]
     [Tooltip("눌렀을 때 작아지는 크기"), SerializeField] private      float pinDownScale = 0.8f;
@@ -23,6 +29,10 @@ public class UIAnimator : MonoBehaviour
     [Tooltip("즐겨찾기 켰을 때 색상"), SerializeField] private        Color pinActiveColor = Color.white;
     [Tooltip("껐을 때 색상"), SerializeField] private                Color pinInactiveColor = new Color(0.5f, 0.5f, 0.5f, 0.5f);
     [Tooltip("색상 변경 속도"), SerializeField] private              float pinColorDuration = 0.2f;
+
+    [Header("[슬라이드 전환 연출]")]
+    [Tooltip("사라지고 나타나는 시간"), SerializeField] private       float slideDuration = 0.15f;
+    [Tooltip("화면 밖으로 나갈 거리"), SerializeField] private        float slideOffset = 1000f;
 
 
     //리스트 순차 등장
@@ -53,6 +63,27 @@ public class UIAnimator : MonoBehaviour
         }
     }
 
+    //자리 이동 연출
+    public void PlayLayoutReorder(Dictionary<Transform, Vector3> oldLocalPositions, RectTransform contentRect)
+    {
+        LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
+
+        foreach (Transform child in contentRect)
+        {
+            if (!child.gameObject.activeInHierarchy) continue;
+
+            if (oldLocalPositions.TryGetValue(child, out Vector3 oldLocalPos))
+            {
+                Vector3 targetLocalPos = child.localPosition;
+
+                child.localPosition = oldLocalPos;
+
+                child.DOKill();
+                child.DOLocalMove(targetLocalPos, reorderDuration).SetEase(reorderEase);
+            }
+        }
+    }
+
     //핀 클릭 Down
     public void PlayPinDown(Transform pinTransform)
     {
@@ -79,5 +110,52 @@ public class UIAnimator : MonoBehaviour
 
         pinImage.DOKill();
         pinImage.color = isActive ? pinActiveColor : pinInactiveColor;
+    }
+    public void PlayTextPinUp(Transform pinTransform, TextMeshProUGUI textUI, bool isActive, Color activeColor, Color inactiveColor)
+    {
+        pinTransform.DOKill();
+        if (textUI != null) textUI.DOKill();
+
+        pinTransform.DOScale(Vector3.one, pinUpBounceDuration).SetEase(pinUpBounceEase);
+
+        if (textUI != null)
+        {
+            Color targetColor = isActive ? activeColor : inactiveColor;
+            textUI.DOColor(targetColor, pinColorDuration);
+        }
+    }
+
+    public void SetTextPinColorInstant(TextMeshProUGUI textUI, bool isActive, Color activeColor, Color inactiveColor)
+    {
+        if (textUI == null) return;
+        textUI.DOKill();
+        textUI.color = isActive ? activeColor : inactiveColor;
+    }
+
+    public void PlaySlideTransition(RectTransform panelRect, bool isNext, TweenCallback onSwapData)
+    {
+        CanvasGroup cg = panelRect.GetComponent<CanvasGroup>();
+        if (cg == null) cg = panelRect.AddComponent<CanvasGroup>();
+
+        panelRect.DOKill();
+        cg.DOKill();
+
+        float directionMultiplier = isNext ? -1f : 1f;
+        float startX = 0f;
+
+        DG.Tweening.Sequence seq = DOTween.Sequence();
+
+        seq.Append(panelRect.DOAnchorPosX(startX + (slideOffset * directionMultiplier), slideDuration).SetEase(Ease.InBack));
+        seq.Join(cg.DOFade(0f, slideDuration));
+
+        seq.AppendCallback(onSwapData);
+
+        seq.AppendCallback(() => {
+            panelRect.anchoredPosition = new Vector2(startX + (slideOffset * -directionMultiplier), panelRect.anchoredPosition.y);
+            cg.alpha = 0f;
+        });
+
+        seq.Append(panelRect.DOAnchorPosX(startX, slideDuration).SetEase(Ease.OutBack));
+        seq.Join(cg.DOFade(1f, slideDuration));
     }
 }

@@ -74,13 +74,26 @@ public class StudentSlotUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
         if (manager != null)
         {
-            manager.SortAndRefreshUI();
+            manager.SortAndRefreshUI(false, myStudent.IsFavorite);
         }
     }
 
     public void OnClickDetail()
     {
-        GameManager.SelectedStudent = myStudent;
-        SceneManager.LoadScene("Student");
+        if (ButtonManager.Instance != null)
+        {
+            ButtonManager.Instance.TransitionTo(() =>
+            {
+                if (StudentDetailUI.Instance != null)
+                {
+                    StudentDetailUI.Instance.OpenDetail(myStudent);
+                }
+
+                if (ButtonManager.Instance.transitionManager != null)
+                {
+                    ButtonManager.Instance.transitionManager.Hide();
+                }
+            });
+        }
     }
 }

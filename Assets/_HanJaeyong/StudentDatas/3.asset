@@ -19,14 +19,14 @@ MonoBehaviour:
   level: 72
   exp: 0
   baseStats:
-    maxHP: 0
-    attack: 0
-    defense: 0
-    healing: 0
+    maxHP: 600
+    attack: 63
+    defense: 25
+    healing: 16
   weaponStats:
-    weaponName: 
-    weaponImage: {fileID: 0}
-    attack: 0
-    critRate: 0
-    armorPenetration: 0
-    range: 0
+    weaponName: '[SNT Motiv K-14]'
+    weaponImage: {fileID: 21300000, guid: 108d59eb0fe802542a1a68f92a221406, type: 3}
+    attack: 100
+    critRate: 10
+    armorPenetration: 25
+    range: 55

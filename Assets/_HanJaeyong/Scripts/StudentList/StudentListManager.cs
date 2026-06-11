@@ -6,6 +6,7 @@ using TMPro;
 
 public enum FilterType
 {
+    None,
     ALL,
     STRIKER,
     SPECIAL
@@ -18,6 +19,12 @@ public enum SortType
 
 public class StudentListManager : MonoBehaviour
 {
+    public static StudentListManager Instance;
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
+
     [Header("[보유학생들(SO넣기)]")]
     [SerializeField] private List<StudentData> studentSOList;
 
@@ -39,20 +46,22 @@ public class StudentListManager : MonoBehaviour
     [Header("매니저")]
     [SerializeField] private UIAnimator uiAnimator;
 
-    private FilterType currentFilter = FilterType.ALL;
+    private FilterType currentFilter = FilterType.None;
     private SortType currentSortType = SortType.LEVEL;
     private bool isDescending = true;
 
     private List<Student> runtimeStudentList = new List<Student>();
+    public List<Student> CurrentActiveList { get; private set; } = new List<Student>();
 
     private Dictionary<Student, StudentSlotUI> slotUIDict = new Dictionary<Student, StudentSlotUI>();
+
 
     void Start()
     {
         InitializeData();
         CreateUISlots();
 
-        SetFilter(FilterType.ALL);
+        SetFilter(FilterType.ALL, true);
     }
 
     private void InitializeData()
@@ -143,8 +152,24 @@ public class StudentListManager : MonoBehaviour
         SortAndRefreshUI(true);
     }
 
-    public void SortAndRefreshUI(bool playAnim = false)
+    public void SortAndRefreshUI(bool playPopInAnim = false, bool playReorderAnim = false)
     {
+
+        //정렬 애니메이션을 위한 기존 위치 저장
+        Dictionary<Transform, Vector3> oldLocalPositions = new Dictionary<Transform, Vector3>();
+        if (playReorderAnim)
+        {
+            foreach (Transform child in contentTransform)
+            {
+                if (child.gameObject.activeSelf)
+                {
+                    oldLocalPositions[child] = child.localPosition;
+                }
+            }
+        }
+
+        CurrentActiveList.Clear();
+
         // 1순위 정렬: 즐겨찾기(내림차순 고정)
         IOrderedEnumerable<Student> query = runtimeStudentList.OrderByDescending(s => s.IsFavorite);
 
@@ -197,13 +222,21 @@ public class StudentListManager : MonoBehaviour
                     slotUI.UpdateUI();
 
                     activeSlotsForAnim.Add(slotUI.gameObject);
+
+                    CurrentActiveList.Add(student);
                 }
             }
         }
 
-        if (playAnim && uiAnimator != null)
+        if (playPopInAnim && uiAnimator != null)
         {
+            // 재정렬 슬롯 생성 연출
             uiAnimator.PlayListPopIn(activeSlotsForAnim);
+        }
+        else if (playReorderAnim && uiAnimator != null)
+        {
+            // 자리이동 연출
+            uiAnimator.PlayLayoutReorder(oldLocalPositions, contentTransform as RectTransform);
         }
     }//SortAndRefreshUI------End.
 
