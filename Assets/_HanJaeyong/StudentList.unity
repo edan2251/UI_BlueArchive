@@ -1212,7 +1212,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 106826204}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 453160409}
+        m_TargetAssemblyTypeName: StudentListManager, Assembly-CSharp
+        m_MethodName: OnClickSortToggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &106826207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2760,6 +2772,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 04e3aec058493d9458977b3e15cd23a2, type: 2}
   studentSlotPrefab: {fileID: 5725051873502989921, guid: 047261903610ff945b7535662c613444, type: 3}
   contentTransform: {fileID: 1207304816}
+  allTabImage: {fileID: 682832077}
+  strikerTabImage: {fileID: 642201622}
+  specialTabImage: {fileID: 1708948536}
+  allActiveSprite: {fileID: 21300000, guid: ea56c1bff75318d48847704f8cb41fd3, type: 3}
+  allInactiveSprite: {fileID: 21300000, guid: d4d6fc51c434961479997f96b7c989b4, type: 3}
+  strikerActiveSprite: {fileID: 21300000, guid: 84de8d2c94bda1549af720a42da74c5b, type: 3}
+  strikerInactiveSprite: {fileID: 21300000, guid: 68bf20648cac0ea4691ef2c45d6ea1e3, type: 3}
+  specialActiveSprite: {fileID: 21300000, guid: 10fc1497cd1357c40898c549a5fd06b2, type: 3}
+  specialInactiveSprite: {fileID: 21300000, guid: d77cf29ae4b364c4db93814e622c8cf6, type: 3}
+  sortButtonText: {fileID: 1151879004}
+  sortDirectionArrowRect: {fileID: 622643354}
+  uiAnimator: {fileID: 988632693}
 --- !u!1 &470785014
 GameObject:
   m_ObjectHideFlags: 0
@@ -3854,7 +3878,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 642201622}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 453160409}
+        m_TargetAssemblyTypeName: StudentListManager, Assembly-CSharp
+        m_MethodName: OnClickTabStriker
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &642201625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4182,7 +4218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d4d6fc51c434961479997f96b7c989b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ea56c1bff75318d48847704f8cb41fd3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4243,7 +4279,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 682832077}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 453160409}
+        m_TargetAssemblyTypeName: StudentListManager, Assembly-CSharp
+        m_MethodName: OnClickTabAll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &682832080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6524,6 +6572,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985788811}
   m_CullTransparentMesh: 1
+--- !u!1 &988632692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 988632694}
+  - component: {fileID: 988632693}
+  m_Layer: 0
+  m_Name: Animator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &988632693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988632692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a9f9e3aa8bf94bb3e38bd2ef588b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIAnimator
+  listDuration: 0.35
+  listStaggerDelay: 0.04
+  listEase: 27
+  listInitialAlpha: 0.4
+  pinDownScale: 0.9
+  pinDownDuration: 0.1
+  pinUpBounceDuration: 0.5
+  pinUpBounceEase: 27
+  pinActiveColor: {r: 1, g: 1, b: 1, a: 1}
+  pinInactiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.7137255}
+  pinColorDuration: 0.2
+--- !u!4 &988632694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988632692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2105.8054, y: 842.9409, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &993932186
 GameObject:
   m_ObjectHideFlags: 0
@@ -7981,7 +8084,7 @@ GameObject:
   - component: {fileID: 1151879005}
   - component: {fileID: 1151879004}
   m_Layer: 5
-  m_Name: Lv
+  m_Name: SortbyText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8435,7 +8538,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1166638691}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 453160409}
+        m_TargetAssemblyTypeName: StudentListManager, Assembly-CSharp
+        m_MethodName: OnClickDirectionToggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1166638694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12417,7 +12532,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1708948536}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 453160409}
+        m_TargetAssemblyTypeName: StudentListManager, Assembly-CSharp
+        m_MethodName: OnClickTabSpecial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1708948539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14806,3 +14933,4 @@ SceneRoots:
   - {fileID: 679706651}
   - {fileID: 1136799383}
   - {fileID: 745170590}
+  - {fileID: 988632694}

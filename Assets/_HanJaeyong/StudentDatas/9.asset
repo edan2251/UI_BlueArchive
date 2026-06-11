@@ -15,7 +15,7 @@ MonoBehaviour:
   studentName: "\uC2DC\uB85C\uCF54"
   isFavorite: 0
   mysteryLevel: 0
-  role: 0
+  role: 1
   level: 99
   exp: 0
   baseStats:
