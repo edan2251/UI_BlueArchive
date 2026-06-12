@@ -16,7 +16,7 @@ MonoBehaviour:
   isFavorite: 0
   mysteryLevel: 0
   role: 0
-  level: 72
+  level: 1
   exp: 0
   baseStats:
     maxHP: 600
@@ -29,4 +29,4 @@ MonoBehaviour:
     attack: 100
     critRate: 10
     armorPenetration: 25
-    range: 55
+    range: 5

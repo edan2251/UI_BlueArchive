@@ -29,4 +29,4 @@ MonoBehaviour:
     attack: 100
     critRate: 10
     armorPenetration: 25
-    range: 55
+    range: 5

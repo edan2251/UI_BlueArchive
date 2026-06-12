@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_HanJaeyong/Main.unity
+    guid: a6fd80f4ecaadc646865f42a1bafcba9
+  - enabled: 1
     path: Assets/_HanJaeyong/StudentList.unity
     guid: 1d586e5966b2fad478718e57f384a390
   m_configObjects:

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fbc9eb3314c21f4c98bbb79fd2f5eb8, type: 3}
   m_Name: 9
   m_EditorClassIdentifier: Assembly-CSharp::StudentData
-  studentName: "\uC2DC\uB85C\uCF54"
+  studentName: "\uAC70\uBD81\uC774"
   isFavorite: 0
   mysteryLevel: 0
   role: 1
-  level: 99
+  level: 1
   exp: 0
   baseStats:
     maxHP: 500
@@ -29,4 +29,4 @@ MonoBehaviour:
     attack: 100
     critRate: 10
     armorPenetration: 25
-    range: 55
+    range: 5

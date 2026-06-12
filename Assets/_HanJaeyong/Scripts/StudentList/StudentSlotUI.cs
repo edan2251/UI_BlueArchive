@@ -80,19 +80,16 @@ public class StudentSlotUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
     public void OnClickDetail()
     {
-        if (ButtonManager.Instance != null)
+        if (GameTransitionManager.Instance != null)
         {
-            ButtonManager.Instance.TransitionTo(() =>
+            GameTransitionManager.Instance.TransitionTo(TransitionType.CanvasSwap, () =>
             {
                 if (StudentDetailUI.Instance != null)
                 {
                     StudentDetailUI.Instance.OpenDetail(myStudent);
                 }
 
-                if (ButtonManager.Instance.transitionManager != null)
-                {
-                    ButtonManager.Instance.transitionManager.Hide();
-                }
+                GameTransitionManager.Instance.HideTransition();
             });
         }
     }
