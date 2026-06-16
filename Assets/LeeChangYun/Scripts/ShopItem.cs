@@ -11,6 +11,10 @@ public class ShopItem : MonoBehaviour
     public TextMeshProUGUI priceText;
     public Button buyButton;
 
+    public Image currencyIcon;
+    public Sprite coinSprite;
+    public Sprite diamondSprite;
+
     private void Start()
     {
         InitializeItem();
@@ -24,6 +28,11 @@ public class ShopItem : MonoBehaviour
         if (iconImage != null) iconImage.sprite = itemData.itemIcon;
         if (priceText != null) priceText.text = itemData.itemPrice.ToString("N0");
 
+        if (currencyIcon != null)
+        {
+            currencyIcon.sprite = (itemData.currencyType == CurrencyType.Coin) ? coinSprite : diamondSprite;
+        }
+
         if (buyButton != null)
         {
             buyButton.onClick.RemoveAllListeners();
@@ -33,13 +42,24 @@ public class ShopItem : MonoBehaviour
 
     private void BuyItem()
     {
-        if (CurrencyManager.instance.SpendCoin(itemData.itemPrice))
+        bool isSuccess = false;
+
+        if (itemData.currencyType == CurrencyType.Coin)
+        {
+            isSuccess = CurrencyManager.instance.SpendCoin(itemData.itemPrice);
+        }
+        else if (itemData.currencyType == CurrencyType.Diamond)
+        {
+            isSuccess = CurrencyManager.instance.SpendDiamond(itemData.itemPrice);
+        }
+
+        if (isSuccess)
         {
             Debug.Log($"{itemData.itemName} 구매 성공!");
         }
         else
         {
-            Debug.Log("코인이 부족합니다.");
+            Debug.Log("재화가 부족합니다.");
         }
     }
 }

@@ -28,6 +28,17 @@ public class CurrencyManager : MonoBehaviour
         return false;
     }
 
+    public bool SpendDiamond(int amount)
+    {
+        if (diamonds >= amount)
+        {
+            diamonds -= amount;
+            UpdateCurrencyUI();
+            return true;
+        }
+        return false;
+    }
+
     public void UpdateCurrencyUI()
     {
         if (coinText != null) coinText.text = coins.ToString("N0");

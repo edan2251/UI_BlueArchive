@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9feae6ff71f29cf4092f5a3523c2b63a, type: 3}
-  m_Name: Item 3
+  m_Name: Item 2
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: "\uCD5C\uACE0\uAE09\uD65C\uB3D9 \uBCF4\uACE0\uC11C"
-  itemIcon: {fileID: 21300000, guid: a0e3a8ab70d488848aad8a4d80273ef4, type: 3}
-  itemPrice: 25000
+  itemName: "\uACE0\uAE09\uD65C\uB3D9 \uBCF4\uACE0\uC11C"
+  itemIcon: {fileID: 21300000, guid: c092466e2f3086d479980afa412b7c21, type: 3}
+  itemPrice: 20000
