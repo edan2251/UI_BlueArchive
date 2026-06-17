@@ -66,6 +66,8 @@ public class StudentDetailUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI nextWeaponPenetrationText;
     [SerializeField] private TextMeshProUGUI nextWeaponRangeText;
 
+    [Header("[상세 화면 튜토리얼]")]
+    [SerializeField] private TutorialSequence detailTutorial;
 
     private Student currentStudent;
     private Color originalTextColor;
@@ -107,6 +109,11 @@ public class StudentDetailUI : MonoBehaviour
 
         OnClickMainTab(0);
         OnClickSubTab(1);
+
+        if (detailTutorial != null)
+        {
+            detailTutorial.PlayTutorialIfNeeded();
+        }
     }
 
     private void BindData(Student student)
