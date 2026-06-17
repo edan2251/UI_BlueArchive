@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
+using System.Collections.Generic;
 
 public class TutorialSequence : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class TutorialSequence : MonoBehaviour
     public GameObject[] tutorialPanels;
 
     private int currentPanelIndex = -1;
-    private bool hasPlayedOnce = false;
+    private static HashSet<string> playedTutorials = new HashSet<string>();
 
     private void Start()
     {
@@ -36,8 +37,9 @@ public class TutorialSequence : MonoBehaviour
 
     public void PlayTutorialIfNeeded()
     {
-        if (hasPlayedOnce) return;
-        hasPlayedOnce = true;
+        if (playedTutorials.Contains(sceneName)) return;
+
+        playedTutorials.Add(sceneName);
 
         if (titleText != null) titleText.text = $"{sceneName} / 작업자: {authorName}";
         if (descText != null) descText.text = $"[작업 내용]\n{description}";
@@ -92,9 +94,14 @@ public class TutorialSequence : MonoBehaviour
         {
             screenClickButton.gameObject.SetActive(false);
 
+            if (currentPanelIndex - 1 >= 0 && tutorialPanels[currentPanelIndex - 1] != null)
+            {
+                tutorialPanels[currentPanelIndex - 1].SetActive(false);
+            }
+
             darkOverlay.DOFade(0f, 0.5f).OnComplete(() =>
             {
-                darkOverlay.gameObject.SetActive(false);
+                gameObject.SetActive(false);
             });
         }
         else

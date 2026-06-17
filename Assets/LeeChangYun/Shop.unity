@@ -1424,9 +1424,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 563992182}
-        m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
-        m_MethodName: LoadMainScene
+      - m_Target: {fileID: 1815080042}
+        m_TargetAssemblyTypeName: TeamSceneToMainController, Assembly-CSharp
+        m_MethodName: OnClickGoBackToMain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7647,6 +7647,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802771354}
   m_CullTransparentMesh: 1
+--- !u!1001 &1815080041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 771.43994
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 861.6748
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90.12508
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965853285205602773, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743163958464231720, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+      propertyPath: m_Name
+      value: TeamSceneToMainController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+--- !u!114 &1815080042 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7530299693567584493, guid: 3b0f39480074e464a8602e617e9a6aef, type: 3}
+  m_PrefabInstance: {fileID: 1815080041}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb555a35e8e2d324381568726ce7ed0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TeamSceneToMainController
 --- !u!1 &1892762750
 GameObject:
   m_ObjectHideFlags: 0
@@ -8387,3 +8455,4 @@ SceneRoots:
   - {fileID: 1450935908}
   - {fileID: 995861166}
   - {fileID: 580359314}
+  - {fileID: 1815080041}

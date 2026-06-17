@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.coffee.ui-particle": {
+      "version": "file:C:/Users/molph/Downloads/ParticleEffectForUGUI-main",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
