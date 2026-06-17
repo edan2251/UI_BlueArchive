@@ -24,9 +24,17 @@ public class ClickManager : MonoBehaviour
 
     private void Update()
     {
-        if (Mouse.current == null) return;
+        if (Touchscreen.current != null && Touchscreen.current.touches.Count > 0)
+        {
+            var touch = Touchscreen.current.touches[0];
+            if (touch.phase.ReadValue() == UnityEngine.InputSystem.TouchPhase.Began)
+            {
+                SpawnParticle(touch.position.ReadValue());
+                return;
+            }
+        }
 
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             SpawnParticle(Mouse.current.position.ReadValue());
         }
@@ -37,12 +45,11 @@ public class ClickManager : MonoBehaviour
         if (uiParticlePrefab == null || globalCanvasTransform == null) return;
 
         GameObject effect = Instantiate(uiParticlePrefab, globalCanvasTransform);
-
         RectTransform canvasRect = globalCanvasTransform.GetComponent<RectTransform>();
 
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, screenPos, null, out Vector2 localPoint))
         {
-            effect.transform.localPosition = localPoint;
+            effect.transform.localPosition = new Vector3(localPoint.x, localPoint.y, 0f);
         }
 
         effect.transform.SetAsLastSibling();
