@@ -13,4 +13,10 @@ public class ItemData : ScriptableObject
     public Sprite itemIcon;
     public int itemPrice;
     public CurrencyType currencyType;
+
+    public int ownedQuantity;
+
+    [Header("Purchase Limit")]
+    public int maxPurchaseLimit; 
+    public int currentPurchaseCount;
 }

@@ -6,19 +6,18 @@ public class ShopItem : MonoBehaviour
 {
     public ItemData itemData;
 
+    [Header("UI References")]
     public TextMeshProUGUI nameText;
     public Image iconImage;
     public TextMeshProUGUI priceText;
     public Button buyButton;
-
     public Image currencyIcon;
     public Sprite coinSprite;
     public Sprite diamondSprite;
 
-    private void Start()
-    {
-        InitializeItem();
-    }
+    [Header("Limit System")]
+    public TextMeshProUGUI limitText;
+    public CanvasGroup canvasGroup;     
 
     public void InitializeItem()
     {
@@ -36,30 +35,45 @@ public class ShopItem : MonoBehaviour
         if (buyButton != null)
         {
             buyButton.onClick.RemoveAllListeners();
-            buyButton.onClick.AddListener(BuyItem);
+            buyButton.onClick.AddListener(OnClickBuyButton);
         }
+
+        UpdateSlotUI();
     }
 
-    private void BuyItem()
+
+    public void UpdateSlotUI()
     {
-        bool isSuccess = false;
+        int remainCount = itemData.maxPurchaseLimit - itemData.currentPurchaseCount;
 
-        if (itemData.currencyType == CurrencyType.Coin)
+        if (limitText != null)
         {
-            isSuccess = CurrencyManager.instance.SpendCoin(itemData.itemPrice);
-        }
-        else if (itemData.currencyType == CurrencyType.Diamond)
-        {
-            isSuccess = CurrencyManager.instance.SpendDiamond(itemData.itemPrice);
+            limitText.text = $"남은 수량: {remainCount}";
         }
 
-        if (isSuccess)
+        // 품절 처리 로직
+        if (remainCount <= 0)
         {
-            Debug.Log($"{itemData.itemName} 구매 성공!");
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 0.5f;  
+                canvasGroup.interactable = false;    
+                canvasGroup.blocksRaycasts = false;   
+            }
         }
         else
         {
-            Debug.Log("재화가 부족합니다.");
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 1.0f;
+                canvasGroup.interactable = true;
+                canvasGroup.blocksRaycasts = true;
+            }
         }
+    }
+
+    private void OnClickBuyButton()
+    {
+        PurchasePopupManager.instance.OpenPopup(this);
     }
 }

@@ -17,6 +17,22 @@ public class ShopManager : MonoBehaviour
     public Transform contentPanel;
     public List<ShopTab> shopTabs;
 
+    private void Awake()
+    {
+        // 게임을 켤 때마다 모든 아이템의 정보 초기화 (에디터 저장 방지)
+        foreach (ShopTab tab in shopTabs)
+        {
+            foreach (ItemData item in tab.tabItems)
+            {
+                if (item != null)
+                {
+                    item.ownedQuantity = 0;
+                    item.currentPurchaseCount = 0;
+                }
+            }
+        }
+    }
+
     private void Start()
     {
         for (int i = 0; i < shopTabs.Count; i++)

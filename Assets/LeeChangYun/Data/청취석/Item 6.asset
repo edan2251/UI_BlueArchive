@@ -16,3 +16,6 @@ MonoBehaviour:
   itemIcon: {fileID: 21300000, guid: 13282d4e5e9f17b4bb857a059dae71a9, type: 3}
   itemPrice: 30
   currencyType: 1
+  ownedQuantity: 0
+  maxPurchaseLimit: 3
+  currentPurchaseCount: 0

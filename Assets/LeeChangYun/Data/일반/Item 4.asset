@@ -15,3 +15,7 @@ MonoBehaviour:
   itemName: "\uD558\uAE09 \uAC15\uD654\uC11D"
   itemIcon: {fileID: 21300000, guid: e78b7adb717a6d344b4debc4f5df8bc9, type: 3}
   itemPrice: 10000
+  currencyType: 0
+  ownedQuantity: 0
+  maxPurchaseLimit: 3
+  currentPurchaseCount: 0
