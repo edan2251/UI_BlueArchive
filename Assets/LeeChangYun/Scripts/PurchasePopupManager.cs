@@ -1,12 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening; 
 
 public class PurchasePopupManager : MonoBehaviour
 {
     public static PurchasePopupManager instance;
-
     public GameObject popupPanel;
+    public CanvasGroup canvasGroup;
+    public RectTransform popupBox;
+
+    public Image dimmedImage;
 
     [Header("Item Info")]
     public Image itemIcon;
@@ -29,7 +33,7 @@ public class PurchasePopupManager : MonoBehaviour
     public Button confirmButton;
     public Button cancelButton;
 
-    private ShopItem currentSlot; // 누른 슬롯 자체를 기억
+    private ShopItem currentSlot;
 
     private void Awake()
     {
@@ -60,7 +64,6 @@ public class PurchasePopupManager : MonoBehaviour
             if (myCurrencyText != null) myCurrencyText.text = CurrencyManager.instance.coins.ToString("N0");
             if (myCurrencyIcon != null) myCurrencyIcon.sprite = coinSprite;
             if (priceCurrencyIcon != null) priceCurrencyIcon.sprite = coinSprite;
-
             canAfford = CurrencyManager.instance.coins >= item.itemPrice;
         }
         else if (item.currencyType == CurrencyType.Diamond)
@@ -68,7 +71,6 @@ public class PurchasePopupManager : MonoBehaviour
             if (myCurrencyText != null) myCurrencyText.text = CurrencyManager.instance.diamonds.ToString("N0");
             if (myCurrencyIcon != null) myCurrencyIcon.sprite = diamondSprite;
             if (priceCurrencyIcon != null) priceCurrencyIcon.sprite = diamondSprite;
-
             canAfford = CurrencyManager.instance.diamonds >= item.itemPrice;
         }
 
@@ -87,12 +89,59 @@ public class PurchasePopupManager : MonoBehaviour
             }
         }
 
-        popupPanel.SetActive(true);
+        popupPanel.SetActive(true); 
+
+        if (canvasGroup != null && popupBox != null)
+        {
+            canvasGroup.DOKill();
+            popupBox.DOKill();
+
+            canvasGroup.alpha = 0f;
+            canvasGroup.interactable = true;
+            canvasGroup.blocksRaycasts = true;
+            popupBox.localScale = Vector3.zero; 
+
+            canvasGroup.DOFade(1f, 0.25f);
+            popupBox.DOScale(1f, 0.35f).SetEase(Ease.OutBack);
+
+            if (dimmedImage != null)
+            {
+                dimmedImage.gameObject.SetActive(true);
+                dimmedImage.color = new Color(0, 0, 0, 0);
+                dimmedImage.DOFade(0.5f, 0.25f);          
+            }
+        }
     }
 
     private void ClosePopup()
     {
-        popupPanel.SetActive(false);
+        if (canvasGroup != null && popupBox != null)
+        {
+            canvasGroup.DOKill();
+            popupBox.DOKill();
+
+            Sequence sequence = DOTween.Sequence();
+
+            if (dimmedImage != null)
+            {
+                sequence.Join(dimmedImage.DOFade(0f, 0.2f));
+            }
+
+            sequence.Append(popupBox.DOScale(0f, 0.2f).SetEase(Ease.InBack));
+            sequence.Join(canvasGroup.DOFade(0f, 0.2f));
+
+            sequence.OnComplete(() =>
+            {
+                canvasGroup.interactable = false;
+                canvasGroup.blocksRaycasts = false;
+                popupPanel.SetActive(false);
+                if (dimmedImage != null) dimmedImage.gameObject.SetActive(false);
+            });
+        }
+        else
+        {
+            popupPanel.SetActive(false);
+        }
     }
 
     private void ConfirmPurchase()
@@ -112,9 +161,9 @@ public class PurchasePopupManager : MonoBehaviour
         if (isSuccess)
         {
             item.ownedQuantity++;
-            item.currentPurchaseCount++; 
-            currentSlot.UpdateSlotUI();  
-            ClosePopup();
+            item.currentPurchaseCount++;
+            currentSlot.UpdateSlotUI();
+            ClosePopup(); 
         }
     }
 }
