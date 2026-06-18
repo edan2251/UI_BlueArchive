@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LeeChangYun/Scene/Shop.unity
     guid: 1a1ac63414024d141bacc1542d1858ad
+  - enabled: 1
+    path: Assets/_JeongHwanseo/Scene/ARONA.unity
+    guid: 28bcdba20d9cb3c4caf3c8fecb079fc6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

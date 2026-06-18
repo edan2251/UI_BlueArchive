@@ -36,4 +36,15 @@ public class MainSceneController : MonoBehaviour
             GameTransitionManager.Instance.HideTransition();
         });
     }
+
+    public void OnClickGoToARONA()
+    {
+        if (GameTransitionManager.Instance == null || GameTransitionManager.Instance.IsTransitioning) return;
+
+        GameTransitionManager.Instance.TransitionTo(TransitionType.SceneSwap, () =>
+        {
+            SceneManager.LoadScene("ARONA");
+            GameTransitionManager.Instance.HideTransition();
+        });
+    }
 }
